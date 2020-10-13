@@ -1,5 +1,5 @@
 title:
-  en: Pandemic Unemployment Assistance
+  en: Unified Unemployment Insurance Benefits Application
   es: Asistencia de desempleo pandémico
   zh: 大流行性失业援助
 description:
@@ -8,8 +8,8 @@ description:
   zh: USDR大流行性失业援助服务演示
 seal: generic-state-seal.png
 variables:
-  STATE_CODE: '[ST]'
-  STATE_NAME: '[State]'
+  STATE_CODE: '[SAMPLE STATE]'
+  STATE_NAME: '[Sample State]'
   DOMAIN: usdigitalresponse.org
 instructions:
   get-started:
@@ -197,7 +197,9 @@ pages:
       zh: 使用说明
     instructions:
       en: |-
-        Welcome to the {{STATE_CODE}} Unemployment Insurance Benefits Claims System.
+        Welcome to the Unemployment Insurance Benefits Claims Application for {{STATE_CODE}}
+
+        This application can be used to apply for standard unemployment insurance benefits as well as programs introduced by the CARES Act of April 2020. This system will help you determine which programs you may qualify for, and to apply for those benefits.
 
         The {{STATE_CODE}} Unemployment Insurance Benefits Claims Application should be used to request unemployment benefits against income earned, or expected to be earned, in the state of {{STATE_CODE}}.
 

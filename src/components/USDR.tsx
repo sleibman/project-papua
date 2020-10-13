@@ -38,10 +38,10 @@ const Header: React.FC = () => {
         align="center"
       >
         <a href="https://www.usdigitalresponse.org/" target="_blank" rel="noopener noreferrer" tabIndex={-1}>
-          <Image style={{ display: 'block' }} width="32px" src="./USDR-icon-BW.png" margin={{ right: '12px' }} />
+          <Image style={{ display: 'block' }} width="32px" src="./OAK-icon-BW.png" margin={{ right: '12px' }} />
         </a>
-        <Heading level={4} margin="none">
-          Pandemic Unemployment Assistance Demo
+        <Heading level={4} margin="none" style="color:#00517c;">
+          Unified Unemployment Insurance Benefits Application Demo
         </Heading>
       </Box>
     </Box>
